@@ -51,17 +51,17 @@ body {
   position: absolute;
 }
 
-.robot-body:hover ~ .robot-brain {
+.robot:hover > .robot-brain {
   right: 140px;
   top: -20px;
 }
 
-.robot-body:hover ~ .robot-head-right {
+.robot:hover > .robot-head-right {
   right: 5px;
   top: -50px;
 }
 
-.robot-body:hover ~ .robot-head-left {
+.robot:hover > .robot-head-left {
   left: 5px;
   top: -50px;
 }
